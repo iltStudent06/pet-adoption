@@ -1,0 +1,47 @@
+{
+  "name": "pet-adoption",
+  "version": "1.0.0",
+  "description": "Express + MongoDB API for pet adoption",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"No tests configured\"",
+    "seed": "node scripts/seed.js",
+    "seed:applications-only": "node scripts/seed-applications-only.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iltStudent06/pet-adoption.git"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "mongodb",
+    "jwt",
+    "pet-adoption"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iltStudent06/pet-adoption/issues"
+  },
+  "homepage": "https://github.com/iltStudent06/pet-adoption#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.9.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.8.1",
+    "globals": "^17.11.0",
+    "nodemon": "^3.1.14"
+  }
+}
